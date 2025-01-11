@@ -87,6 +87,9 @@ export default class App extends Component {
               onPress={() => this.HandleTap("equal", "=")}
             />
           </Row>
+          <View style={styles.footer}>
+            <Text style={styles.footerText}>Calc by Utkarsh</Text>
+          </View>
         </SafeAreaView>
       </View>
     );
@@ -107,4 +110,16 @@ const styles = StyleSheet.create({
     marginRight: 20,
     marginBottom: 10,
   },
+  footer: {
+  padding: 10,
+  alignItems: "center", // Centers the text horizontally
+  justifyContent: "center", // Ensures it's vertically centered
+  backgroundColor: "#f1f1f1", // Light footer background
+  width: "100%",
+},
+footerText: {
+  color: "#333", // Dark text color for footer
+  fontSize: 14,
+  textAlign: "center", // Centers the text within the View
+},
 });
