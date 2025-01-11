@@ -96,15 +96,14 @@ export default class App extends Component {
   }
 }
 
-// Updated styles for light theme
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f9f9f9", // Light background color
+    backgroundColor: "#f9f9f9",
     justifyContent: "flex-end",
   },
   value: {
-    color: "#333", // Darker text color for visibility
+    color: "#333",
     fontSize: 42,
     textAlign: "right",
     marginRight: 20,
@@ -112,14 +111,14 @@ const styles = StyleSheet.create({
   },
   footer: {
   padding: 10,
-  alignItems: "center", // Centers the text horizontally
-  justifyContent: "center", // Ensures it's vertically centered
-  backgroundColor: "#f1f1f1", // Light footer background
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "#f1f1f1", 
   width: "100%",
 },
 footerText: {
-  color: "#333", // Dark text color for footer
+  color: "#333",
   fontSize: 14,
-  textAlign: "center", // Centers the text within the View
+  textAlign: "center", 
 },
 });
